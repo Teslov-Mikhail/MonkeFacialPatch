@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef ParentName="ApePlanet_PlayerColonyBase">
+		<defName>ApePlanet_SimianPlayerColony</defName>
+		<label>Simian Colony</label>
+		<description>Your own community.</description>
+		<basicMemberKind>ApePlanet_Chimp</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+	</FactionDef>
+
+	<FactionDef ParentName="ApePlanet_PlayerTribeBase">
+		<defName>ApePlanet_SimianPlayerTribe</defName>
+		<label>Simian Tribe</label>
+		<description>A small tribe.</description>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<basicMemberKind>ApePlanet_ChimpTribal</basicMemberKind>
+	</FactionDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef ParentName="ApePlanet_PlayerColonyBase">
+		<defName>ApePlanet_OrangutanPlayerColony</defName>
+		<label>Orangutan Colony</label>
+		<description>Your own community.</description>
+		<basicMemberKind>ApePlanet_Orangutan</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+	</FactionDef>
+
+	<FactionDef ParentName="ApePlanet_PlayerTribeBase">
+		<defName>ApePlanet_OrangutanPlayerTribe</defName>
+		<label>Orangutan Tribe</label>
+		<description>A small tribe.</description>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<basicMemberKind>ApePlanet_OrangutanTribal</basicMemberKind>
+	</FactionDef>
+
+</Defs>

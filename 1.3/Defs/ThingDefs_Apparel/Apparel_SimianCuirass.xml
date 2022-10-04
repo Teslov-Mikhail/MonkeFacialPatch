@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>ApePlanet_SimianCuirass</defName>
+		<label>simian cuirass</label>
+		<description>A cuirass with armor plates inserted on the chest and back. Quite effective at deflecting gunshots and stabbing attacks.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<recipeUsers>
+			  <li>ElectricSmithy</li>
+			  <li>FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>ApePlanet/Apparel/SimianCuirass/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.6</Flammability>
+			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.12</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<costList>
+			<Cloth>60</Cloth>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>ApePlanet/Apparel/SimianCuirass/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>SimianMilitaryBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

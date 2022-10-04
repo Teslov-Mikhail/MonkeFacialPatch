@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffGiverSetDef>
+		<defName>ApePlanet_Orangutan</defName>
+		<hediffGivers>
+			<li Class="ApePlanet.HediffGiver_Race">
+				<hediff>ApePlanet_Orangutan</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>ApePlanet_Orangutan</defName>
+		<hediffClass>ApePlanet.Hediff_TooltipDescription</hediffClass>
+		<label>Race: Orangutan</label>
+		<description>Stats Compared to Humans:\n- Slower movement\n- Larger body size\n- Higher overall health\n\nIdeology Specific Stats:\n- Decreased certainty loss\n- Increased chance to spread ideo socially</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

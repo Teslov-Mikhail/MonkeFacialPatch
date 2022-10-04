@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>ApePlanet_SimianCowl</defName>
+		<label>simian cowl</label>
+		<description>Simple simian headwear.</description>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>ApePlanet/Apparel/SimianCowl/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.25</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>ApePlanet/Apparel/SimianCowl/Head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SimianBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<!-- Chimp/Bonobo -->
+				<li>
+					<weight>10</weight>
+					<only>(93, 120, 83)</only>
+				</li>
+				<!-- Gorilla -->
+				<li>
+					<weight>10</weight>
+					<only>(97, 80, 112)</only>
+				</li>
+				<!-- Gorilla General -->
+				<li>
+					<weight>10</weight>
+					<only>(128, 65, 65)</only>
+				</li>
+				<!-- Orangutan -->
+				<li>
+					<weight>10</weight>
+					<only>(156, 135, 100)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

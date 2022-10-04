@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StyleItemCategoryDef>
+		<defName>Simian</defName>
+		<label>simian</label>
+	</StyleItemCategoryDef>
+
+	<HairDef>
+		<defName>ApePlanet_HairBald</defName>
+		<label>ape bald</label>
+		<styleGender>Any</styleGender>
+		<texPath>Things/Mote/Transparent</texPath> <!-- Invisible -->
+		<iconPath>Things/Mote/Transparent</iconPath> <!-- Invisible -->
+		<category>Simian</category>
+		<styleTags>
+			<li>Simian</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>ApePlanet_HairZaius</defName>
+		<label>ape zaius</label>
+		<styleGender>Any</styleGender>
+		<texPath>ApePlanet/Pawn/Hair/ApeZaius</texPath>
+		<category>Simian</category>
+		<styleTags>
+			<li>SimianOrangutan</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>ApePlanet_HairZira</defName>
+		<label>ape zira</label>
+		<styleGender>Female</styleGender>
+		<texPath>ApePlanet/Pawn/Hair/ApeZira</texPath>
+		<category>Simian</category>
+		<styleTags>
+			<li>SimianChimp</li>
+		</styleTags>
+	</HairDef>
+
+</Defs>

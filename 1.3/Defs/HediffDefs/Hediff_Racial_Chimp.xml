@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffGiverSetDef>
+		<defName>ApePlanet_Chimp</defName>
+		<hediffGivers>
+			<li Class="ApePlanet.HediffGiver_Race">
+				<hediff>ApePlanet_Chimp</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>ApePlanet_Chimp</defName>
+		<hediffClass>ApePlanet.Hediff_TooltipDescription</hediffClass>
+		<label>Race: Chimpanzee</label>
+		<description>Stats Compared to Humans:\n- Slightly faster movement\n- Smaller body size\n- Slightly higher overall health</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

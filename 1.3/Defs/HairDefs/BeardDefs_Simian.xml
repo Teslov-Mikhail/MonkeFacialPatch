@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<BeardDef>
+		<defName>ApePlanet_NoBeard</defName>
+		<label>ape beardless</label>
+		<texPath>Things/Mote/Transparent</texPath> <!-- Invisible -->
+		<iconPath>Things/Mote/Transparent</iconPath> <!-- Invisible -->
+		<category>Simian</category>
+		<styleTags>
+			<li>Simian</li>
+		</styleTags>
+	</BeardDef>
+
+	<BeardDef>
+		<defName>ApePlanet_Caesar</defName>
+		<label>ape caesar</label>
+		<texPath>ApePlanet/Pawn/Hair/ApeCaesar</texPath>
+		<styleGender>Male</styleGender>
+		<category>Simian</category>
+		<styleTags>
+			<li>Simian</li>
+		</styleTags>
+	</BeardDef>
+
+	<BeardDef>
+		<defName>ApePlanet_Cloud</defName>
+		<label>ape cloud</label>
+		<texPath>ApePlanet/Pawn/Hair/ApeCloud</texPath>
+		<styleGender>Male</styleGender>
+		<category>Simian</category>
+		<styleTags>
+			<li>Simian</li>
+		</styleTags>
+	</BeardDef>
+
+	<BeardDef>
+		<defName>ApePlanet_Gaius</defName>
+		<label>ape gaius</label>
+		<texPath>ApePlanet/Pawn/Hair/ApeGaius</texPath>
+		<styleGender>Male</styleGender>
+		<category>Simian</category>
+		<styleTags>
+			<li>Simian</li>
+		</styleTags>
+	</BeardDef>
+
+</Defs>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="ApePlanet_BaseColonyPawnKind" Abstract="True">
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>SimianBasic</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>ApePlanet_SimianClothing</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>600</min>
+			<max>800</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.03</techHediffsChance>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>800</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<color>(93, 120, 83)</color>
+				<stuff>Cloth</stuff>
+			</li>
+			<li>
+				<apparelLayer>Shell</apparelLayer>
+				<color>(100, 74, 128)</color>
+				<stuff>Cloth</stuff>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(100, 74, 128)</color>
+				<stuff>Cloth</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+  	<PawnKindDef Name="ApePlanet_BaseTribalPawnKind" Abstract="True">
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Medieval</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>100</min>
+			<max>600</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>50</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.02</techHediffsChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+  	</PawnKindDef>
+
+</Defs>

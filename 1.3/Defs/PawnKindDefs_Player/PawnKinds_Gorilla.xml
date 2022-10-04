@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="ApePlanet_BaseColonyPawnKind">
+		<defName>ApePlanet_Gorilla</defName>
+		<label>Gorilla Colonist</label>
+		<race>ApePlanet_Gorilla</race>
+		<defaultFactionType>ApePlanet_GorillaPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ApePlanet_BaseTribalPawnKind">
+		<defName>ApePlanet_GorillaTribal</defName>
+		<label>Tribal Gorilla</label>
+		<race>ApePlanet_Gorilla</race>
+		<defaultFactionType>ApePlanet_GorillaPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>

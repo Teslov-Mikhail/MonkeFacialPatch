@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ScenarioDef Name="Crashlanded">
+		<defName>ApePlanet_SimianExpedition</defName>
+		<label>Simian Expedition</label>
+		<description>The three of you roam this terrain looking for a place to set up camp, you left your commune weeks ago and if you spread your supplies any thinner you'll all starve. This is home now, you can only hope that this expedition furthers your study of humans and makes the journey worthwhile.</description>
+		<scenario>
+			<summary>Three hungry expeditionists.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>ApePlanet_SimianPlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.5</chance>
+					<hediff>Malnutrition</hediff>
+					<severityRange>0.12~0.28</severityRange>
+				</li>
+				<li Class="ScenPart_SetNeedLevel">
+					<def>SetNeedLevel</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>1.0</chance>
+					<need>Food</need>
+					<levelRange>0~0.1</levelRange>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_BoltActionRifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ApePlanet_SimianCuirass</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ApePlanet_SimianHelmet</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>250</count>
+				</li>
+
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>800</count>
+				</li>
+
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

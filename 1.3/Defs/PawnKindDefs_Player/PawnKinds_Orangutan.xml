@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="ApePlanet_BaseColonyPawnKind">
+		<defName>ApePlanet_Orangutan</defName>
+		<label>Orangutan Colonist</label>
+		<race>ApePlanet_Orangutan</race>
+		<defaultFactionType>ApePlanet_OrangutanPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ApePlanet_BaseTribalPawnKind">
+		<defName>ApePlanet_OrangutanTribal</defName>
+		<label>Tribal Orangutan</label>
+		<race>ApePlanet_Orangutan</race>
+		<defaultFactionType>ApePlanet_OrangutanPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>

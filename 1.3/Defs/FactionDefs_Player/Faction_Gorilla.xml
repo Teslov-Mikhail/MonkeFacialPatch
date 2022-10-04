@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef ParentName="ApePlanet_PlayerColonyBase">
+		<defName>ApePlanet_GorillaPlayerColony</defName>
+		<label>Gorilla Colony</label>
+		<description>Your own community.</description>
+		<basicMemberKind>ApePlanet_Gorilla</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+	</FactionDef>
+
+	<FactionDef ParentName="ApePlanet_PlayerTribeBase">
+		<defName>ApePlanet_GorillaPlayerTribe</defName>
+		<label>Gorilla Tribe</label>
+		<description>A small tribe.</description>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<basicMemberKind>ApePlanet_GorillaTribal</basicMemberKind>
+	</FactionDef>
+
+</Defs>

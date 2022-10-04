@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="ApePlanet_BaseColonyPawnKind">
+		<defName>ApePlanet_Bonobo</defName>
+		<label>Bonobo Colonist</label>
+		<race>ApePlanet_Bonobo</race>
+		<defaultFactionType>ApePlanet_BonoboPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ApePlanet_BaseTribalPawnKind">
+		<defName>ApePlanet_BonoboTribal</defName>
+		<label>Tribal Bonobo</label>
+		<race>ApePlanet_Bonobo</race>
+		<defaultFactionType>ApePlanet_BonoboPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>

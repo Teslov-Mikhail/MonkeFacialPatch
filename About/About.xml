@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Planet of the Apes</name>
+	<author>Neronix17</author>
+	<packageId>Neronix17.PlanetOfTheApes</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>Simple Planet of the Apes mod. Adds 4 simian races with a varying stat differences from humans. Includes a faction comprised of simians with their own apparel, using simple guns. The races do not spawn throughout vanilla factions.</description>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+</ModMetaData>

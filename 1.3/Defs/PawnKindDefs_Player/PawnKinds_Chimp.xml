@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="ApePlanet_BaseColonyPawnKind">
+		<defName>ApePlanet_Chimp</defName>
+		<label>Chimp Colonist</label>
+		<race>ApePlanet_Chimp</race>
+		<defaultFactionType>ApePlanet_ChimpPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ApePlanet_BaseTribalPawnKind">
+		<defName>ApePlanet_ChimpTribal</defName>
+		<label>Tribal Chimp</label>
+		<race>ApePlanet_Chimp</race>
+		<defaultFactionType>ApePlanet_ChimpPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>

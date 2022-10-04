@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffGiverSetDef>
+		<defName>ApePlanet_Gorilla</defName>
+		<hediffGivers>
+			<li Class="ApePlanet.HediffGiver_Race">
+				<hediff>ApePlanet_Gorilla</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>ApePlanet_Gorilla</defName>
+		<hediffClass>ApePlanet.Hediff_TooltipDescription</hediffClass>
+		<label>Race: Gorilla</label>
+		<description>Stats Compared to Humans:\n- Significantly faster movement\n- Much larger body size\n- Significantly higher overall health\n- Punches twice as hard</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>
